@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/symfony/techtest/tests" isTestSource="true" packagePrefix="App\Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/symfony/techtest/src" isTestSource="false" packagePrefix="App\" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/doctrine/annotations" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/doctrine/collections" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/doctrine/common" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/doctrine/doctrine-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/doctrine/doctrine-cache-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/doctrine/doctrine-migrations-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/doctrine/event-manager" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/doctrine/migrations" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/doctrine/orm" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/doctrine/persistence" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/doctrine/reflection" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/exsyst/swagger" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/friendsofsymfony/rest-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/hoa/compiler" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/hoa/consistency" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/hoa/event" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/hoa/exception" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/hoa/file" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/hoa/iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/hoa/math" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/hoa/protocol" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/hoa/regex" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/hoa/stream" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/hoa/ustring" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/hoa/visitor" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/hoa/zformat" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/jdorn/sql-formatter" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/jms/metadata" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/jms/serializer" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/jms/serializer-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/nelmio/api-doc-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/neomerx/json-api" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/ocramius/package-versions" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/ocramius/proxy-manager" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/sensio/framework-extra-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/asset" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/config" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/debug" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/dependency-injection" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/doctrine-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/dotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/flex" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/framework-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/options-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/orm-pack" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/property-info" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/security-core" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/stopwatch" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/templating" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/twig-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/twig-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/var-exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/willdurand/jsonp-callback-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/willdurand/negotiation" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/zendframework/zend-code" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/zendframework/zend-eventmanager" />
+      <excludeFolder url="file://$MODULE_DIR$/symfony/techtest/vendor/zircote/swagger-php" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
