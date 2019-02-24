@@ -1,2 +1,3 @@
 /logs
 /symfony/techtest/vendor
+/symfony/techtest/var/cache
