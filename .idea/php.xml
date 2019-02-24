@@ -2,13 +2,6 @@
 <project version="4">
   <component name="PhpIncludePathManager">
     <include_path>
-      <path value="$PROJECT_DIR$/symfony/techtest/vendor/hoa/regex" />
-      <path value="$PROJECT_DIR$/symfony/techtest/vendor/hoa/protocol" />
-      <path value="$PROJECT_DIR$/symfony/techtest/vendor/hoa/consistency" />
-      <path value="$PROJECT_DIR$/symfony/techtest/vendor/hoa/iterator" />
-      <path value="$PROJECT_DIR$/symfony/techtest/vendor/hoa/ustring" />
-      <path value="$PROJECT_DIR$/symfony/techtest/vendor/hoa/zformat" />
-      <path value="$PROJECT_DIR$/symfony/techtest/vendor/hoa/exception" />
       <path value="$PROJECT_DIR$/symfony/techtest/vendor/doctrine/migrations" />
       <path value="$PROJECT_DIR$/symfony/techtest/vendor/neomerx/json-api" />
       <path value="$PROJECT_DIR$/symfony/techtest/vendor/exsyst/swagger" />
@@ -79,14 +72,33 @@
       <path value="$PROJECT_DIR$/symfony/techtest/vendor/willdurand/negotiation" />
       <path value="$PROJECT_DIR$/symfony/techtest/vendor/jms/metadata" />
       <path value="$PROJECT_DIR$/symfony/techtest/vendor/willdurand/jsonp-callback-validator" />
-      <path value="$PROJECT_DIR$/symfony/techtest/vendor/hoa/event" />
-      <path value="$PROJECT_DIR$/symfony/techtest/vendor/hoa/compiler" />
-      <path value="$PROJECT_DIR$/symfony/techtest/vendor/hoa/math" />
       <path value="$PROJECT_DIR$/symfony/techtest/vendor/webmozart/assert" />
-      <path value="$PROJECT_DIR$/symfony/techtest/vendor/hoa/visitor" />
-      <path value="$PROJECT_DIR$/symfony/techtest/vendor/hoa/file" />
-      <path value="$PROJECT_DIR$/symfony/techtest/vendor/hoa/stream" />
       <path value="$PROJECT_DIR$/symfony/techtest/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/symfony/techtest/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/symfony/techtest/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/symfony/techtest/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/symfony/techtest/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/symfony/techtest/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/symfony/techtest/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/symfony/techtest/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/symfony/techtest/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/symfony/techtest/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/symfony/techtest/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/symfony/techtest/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/symfony/techtest/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/symfony/techtest/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/symfony/techtest/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/symfony/techtest/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/symfony/techtest/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/symfony/techtest/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/symfony/techtest/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/symfony/techtest/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/symfony/techtest/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/symfony/techtest/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/symfony/techtest/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/symfony/techtest/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/symfony/techtest/vendor/phpcollection/phpcollection" />
+      <path value="$PROJECT_DIR$/symfony/techtest/vendor/jms/parser-lib" />
     </include_path>
   </component>
   <component name="PhpInterpreters">
@@ -463,8 +475,7 @@
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
   <component name="PhpUnit">
     <phpunit_settings>
-      <phpunit_by_interpreter interpreter_id="43deff45-9c59-438d-9adc-0fe9b35779d3" load_method="CUSTOM_LOADER" custom_loader_path="/opt/project/symfony/vendor/autoload.php" phpunit_phar_path="" />
-      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="$PROJECT_DIR$/symfony/vendor/autoload.php" />
+      <phpunit_by_interpreter interpreter_id="43deff45-9c59-438d-9adc-0fe9b35779d3" load_method="CUSTOM_LOADER" custom_loader_path="/var/www/symfony/techtest/vendor/autoload.php" phpunit_phar_path="" />
     </phpunit_settings>
   </component>
 </project>
