@@ -81,6 +81,6 @@ class GetUserBalanceUseCaseTest extends TestCase
         );
 
         $this->assertInstanceOf(GetUserBalanceResponse::class, $response);
-        $this->assertEquals(self::FAKE_BALANCE_VALUE, $response->getBalanceResource());
+        $this->assertEquals(self::FAKE_BALANCE_VALUE, $response->getBalanceResource()->getValue());
     }
 }

@@ -143,6 +143,6 @@ class IssueTransactionUseCaseTest extends TestCase
 
         $this->assertInstanceOf(IssueTransactionResponse::class, $response);
 
-        $this->assertEquals(self::FAKE_TRANSACTION_ID, $response->getTransactionId());
+        $this->assertEquals(self::FAKE_TRANSACTION_ID, $response->getTransactionResource()->getId());
     }
 }

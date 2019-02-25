@@ -2,9 +2,9 @@
 
 namespace App\Core\Domain\Exception;
 
-use App\SharedKernel\Domain\Exception\DomainException;
+use App\SharedKernel\Application\Exception\ResourceNotFoundException;
 
-class UserNotFoundException extends DomainException
+class UserNotFoundException extends ResourceNotFoundException
 {
 
 }

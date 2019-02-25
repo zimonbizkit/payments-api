@@ -5,9 +5,11 @@ namespace App\Core\Application\Service;
 use App\Core\Domain\Exception\UserNotFoundException;
 use App\Core\Domain\Repository\UserRepositoryInterface;
 use App\Core\Domain\Service\IssueTransactionService;
+use App\SharedKernel\Application\Exception\LogicException;
 use App\SharedKernel\Application\Request;
 use App\SharedKernel\Application\Response;
 use App\SharedKernel\Application\UseCaseInterface;
+use App\SharedKernel\Domain\Exception\DomainException;
 
 class IssueTransactionUseCase implements UseCaseInterface
 {
@@ -32,15 +34,21 @@ class IssueTransactionUseCase implements UseCaseInterface
      */
     public function handle(Request $request): Response
     {
-        list($issuer, $recipient) = $this->getIssuerAndReciever($request);
+        try {
+            list($issuer, $recipient) = $this->getIssuerAndReciever($request);
 
-        $transaction = $this->issueTransactionService->issue(
-            $issuer,
-            $recipient,
-            $request->getAmount()
-        );
+            $transaction = $this->issueTransactionService->issue(
+                $issuer,
+                $recipient,
+                $request->getAmount()
+            );
 
-        return new IssueTransactionResponse($transaction);
+            return new IssueTransactionResponse($transaction);
+        } catch (DomainException $e) {
+            throw new LogicException($e);
+        } catch (UserNotFoundException $e) {
+            throw new LogicException($e);
+        }
     }
 
     /**

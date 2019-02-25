@@ -57,11 +57,25 @@ setup:
 	export HOST_IP=$(HOST_IP); \
 	docker-compose exec php sed -i s/yourip/$(HOST_IP)/g .env; \
 	docker-compose exec php composer install
+	docker-compose exec goe2e sh e2e_tests/buildAndIncludeCommand.sh
 
 ##	test:		Run the unit tests
 .PHONY: test
 test:
 	docker-compose exec php ./vendor/phpunit/phpunit/phpunit --testdox
+
+
+##	go-env:		Check the environment variables generated in the go environment
+.PHONY: go-env
+go-env:
+	docker-compose exec goe2e go env
+	docker-compose exec goe2e go run e2e_tests/test.go
+
+##	e2e:		Fires the e2e tests concurrently
+.PHONY: e2e
+e2e:
+	docker-compose exec goe2e echo "$(HOST_IP)" > hostip
+	docker-compose exec --env HOSTIP=$(HOST_IP) goe2e ./godog e2e_tests/features/
 ##
 ##
 ## ------------------------------------------------------------------------------------------------------

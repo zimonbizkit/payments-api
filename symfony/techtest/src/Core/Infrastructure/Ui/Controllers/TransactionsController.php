@@ -6,6 +6,7 @@ use App\Core\Application\Service\IssueTransactionRequest;
 use App\Core\Application\Service\IssueTransactionResponse;
 use App\Core\Application\Service\IssueTransactionUseCase;
 use App\Core\Domain\Entity\Transaction;
+use App\SharedKernel\Application\Exception\LogicException;
 use App\SharedKernel\Domain\Exception\DomainException;
 use App\SharedKernel\Infrastructure\Schemas\TransactionSchema;
 use Nelmio\ApiDocBundle\Annotation\Model;
@@ -28,7 +29,7 @@ class TransactionsController
     }
     /**
      * @Operation(
-     *     tags={"Transaction"},
+     *     tags={"POST User Transaction"},
      *     consumes={"application/vnd.api+json"},
      *     produces={"application/vnd.api+json"},
      *     @SWG\Parameter(
@@ -47,6 +48,14 @@ class TransactionsController
      *         response=201,
      *         description="Returns a newly created transaction",
      *         @Model(type="App\Core\Domain\Entity\Transaction")
+     *     ),
+     *     @SWG\Response(
+     *          response=400,
+     *          description="Request is malformed"
+     *     ),
+     *     @SWG\Response(
+     *          response=500,
+     *          description="An error has been found"
      *     )
      * )
      */
@@ -75,10 +84,17 @@ class TransactionsController
                 ),
                 Response::HTTP_CREATED
             );
-        }catch (DomainException $e) {
-            print_r($e->getMessage());
-            print_r($e->getTrace());
-            die();
+        }catch (LogicException $e) {
+            return new Response(
+                json_encode(['error'=> $e->getMessage()],JSON_PRETTY_PRINT),
+                Response::HTTP_BAD_REQUEST
+            );
+        }catch (\Exception $e) {
+            return new Response(
+                json_encode(['error'=> $e->getMessage()],JSON_PRETTY_PRINT),
+                $e->getMessage(),
+                Response::HTTP_INTERNAL_SERVER_ERROR
+            );
         }
     }
 }
