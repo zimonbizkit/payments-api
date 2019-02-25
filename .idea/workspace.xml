@@ -2,33 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62a09cc9-e000-4c43-83c7-e9d2928f15ec" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/e2e_tests/Dockerfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/logs/nginx/error.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/logs/nginx/symfony_access.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/logs/nginx/symfony_error.log" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
-      <change beforePath="$PROJECT_DIR$/elk/logstash/logstash.conf" afterPath="$PROJECT_DIR$/docker/elk/logstash/logstash.conf" />
-      <change beforePath="$PROJECT_DIR$/elk/logstash/patterns/default.conf" afterPath="$PROJECT_DIR$/docker/elk/logstash/patterns/default.conf" />
-      <change beforePath="$PROJECT_DIR$/elk/logstash/patterns/nginx.conf" afterPath="$PROJECT_DIR$/docker/elk/logstash/patterns/nginx.conf" />
-      <change beforePath="$PROJECT_DIR$/elk/logstash/patterns/symfony.conf" afterPath="$PROJECT_DIR$/docker/elk/logstash/patterns/symfony.conf" />
-      <change beforePath="$PROJECT_DIR$/nginx/Dockerfile" afterPath="$PROJECT_DIR$/docker/nginx/Dockerfile" />
-      <change beforePath="$PROJECT_DIR$/nginx/nginx.conf" afterPath="$PROJECT_DIR$/docker/nginx/nginx.conf" />
-      <change beforePath="$PROJECT_DIR$/nginx/symfony.conf" afterPath="$PROJECT_DIR$/docker/nginx/symfony.conf" />
-      <change beforePath="$PROJECT_DIR$/php-fpm/Dockerfile" afterPath="$PROJECT_DIR$/docker/php-fpm/Dockerfile" />
-      <change beforePath="$PROJECT_DIR$/php-fpm/symfony.ini" afterPath="$PROJECT_DIR$/docker/php-fpm/symfony.ini" />
-      <change beforePath="$PROJECT_DIR$/php-fpm/symfony.pool.conf" afterPath="$PROJECT_DIR$/docker/php-fpm/symfony.pool.conf" />
-      <change beforePath="$PROJECT_DIR$/php-fpm/xdebug.ini" afterPath="$PROJECT_DIR$/docker/php-fpm/xdebug.ini" />
+      <change beforePath="$PROJECT_DIR$/e2e/features/post_user_transaction.feature" afterPath="$PROJECT_DIR$/e2e/features/post_user_transaction.feature" />
+      <change beforePath="$PROJECT_DIR$/output" afterPath="" />
       <change beforePath="$PROJECT_DIR$/symfony/techtest/.phpunit.result.cache" afterPath="$PROJECT_DIR$/symfony/techtest/.phpunit.result.cache" />
-      <change beforePath="$PROJECT_DIR$/symfony/techtest/src/Core/Application/Service/IssueTransactionUseCase.php" afterPath="$PROJECT_DIR$/symfony/techtest/src/Core/Application/Service/IssueTransactionUseCase.php" />
-      <change beforePath="$PROJECT_DIR$/symfony/techtest/src/Core/Domain/Exception/UserNotFoundException.php" afterPath="$PROJECT_DIR$/symfony/techtest/src/Core/Domain/Exception/UserNotFoundException.php" />
-      <change beforePath="$PROJECT_DIR$/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/BalancesController.php" afterPath="$PROJECT_DIR$/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/BalancesController.php" />
       <change beforePath="$PROJECT_DIR$/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/TransactionsController.php" afterPath="$PROJECT_DIR$/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/TransactionsController.php" />
-      <change beforePath="$PROJECT_DIR$/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/UsersController.php" afterPath="$PROJECT_DIR$/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/UsersController.php" />
-      <change beforePath="$PROJECT_DIR$/symfony/techtest/tests/Core/Application/Service/GetUserBalanceUseCaseTest.php" afterPath="$PROJECT_DIR$/symfony/techtest/tests/Core/Application/Service/GetUserBalanceUseCaseTest.php" />
       <change beforePath="$PROJECT_DIR$/symfony/techtest/tests/Core/Application/Service/IssueTransactionUseCaseTest.php" afterPath="$PROJECT_DIR$/symfony/techtest/tests/Core/Application/Service/IssueTransactionUseCaseTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,21 +50,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TransactionsController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TransactionsController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/TransactionsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="480">
               <caret line="93" column="76" lean-forward="false" selection-start-line="93" selection-start-column="76" selection-end-line="93" selection-end-column="76" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BalancesController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BalancesController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/BalancesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#58#113#0#PHP" expanded="true" />
               </folding>
@@ -98,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/symfony/techtest/src/Core/Domain/Exception/UserNotFoundException.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -107,8 +85,18 @@
       <file leaf-file-name="IssueTransactionUseCase.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/symfony/techtest/src/Core/Application/Service/IssueTransactionUseCase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="49" column="41" lean-forward="false" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+            <state relative-caret-position="475">
+              <caret line="63" column="47" lean-forward="true" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IssueTransactionUseCaseTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/symfony/techtest/tests/Core/Application/Service/IssueTransactionUseCaseTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="90" column="44" lean-forward="false" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -118,7 +106,7 @@
         <entry file="file://$PROJECT_DIR$/symfony/techtest/src/SharedKernel/Application/Exception/ResourceNotFoundException.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+              <caret line="4" column="55" lean-forward="true" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -138,7 +126,7 @@
         <entry file="file://$PROJECT_DIR$/symfony/techtest/src/SharedKernel/Application/Exception/ApplicationException.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -159,16 +147,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="70" lean-forward="false" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DomainException.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/symfony/techtest/src/SharedKernel/Domain/Exception/DomainException.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -254,12 +232,12 @@
         <option value="$PROJECT_DIR$/symfony/techtest/src/SharedKernel/Application/Exception/ApplicationException.php" />
         <option value="$PROJECT_DIR$/symfony/techtest/src/Core/Application/Exception/ResourceNotFoundException.php" />
         <option value="$PROJECT_DIR$/symfony/techtest/tests/Core/Application/Service/GetUserBalanceUseCaseTest.php" />
-        <option value="$PROJECT_DIR$/symfony/techtest/tests/Core/Application/Service/IssueTransactionUseCaseTest.php" />
         <option value="$PROJECT_DIR$/symfony/techtest/src/SharedKernel/Application/Exception/ResourceNotFoundException.php" />
         <option value="$PROJECT_DIR$/symfony/techtest/src/Core/Domain/Exception/UserNotFoundException.php" />
         <option value="$PROJECT_DIR$/symfony/techtest/src/SharedKernel/Application/Exception/LogicException.php" />
         <option value="$PROJECT_DIR$/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/BalancesController.php" />
         <option value="$PROJECT_DIR$/symfony/techtest/src/Core/Application/Service/IssueTransactionUseCase.php" />
+        <option value="$PROJECT_DIR$/symfony/techtest/tests/Core/Application/Service/IssueTransactionUseCaseTest.php" />
         <option value="$PROJECT_DIR$/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/TransactionsController.php" />
       </list>
     </option>
@@ -375,7 +353,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3865" />
+    <option name="x" value="25" />
     <option name="y" value="-3" />
     <option name="width" value="1896" />
     <option name="height" value="1084" />
@@ -640,7 +618,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="BalancesControl&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/BalancesController.php&#10;Trans&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/TransactionsController.php&#10;IssueTransactionUseCase&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/tests/Core/Application/Service/IssueTransactionUseCaseTest.php&#10;GetUserBalanceUseCaseTest&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/tests/Core/Application/Service/GetUserBalanceUseCaseTest.php&#10;Makefile&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/Makefile&#10;Dockerfile&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/php-fpm/Dockerfile&#10;docker-compose&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/docker-compose.yml&#10;UsersCo&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/UsersController.php&#10;BalancesController&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/BalancesController.php&#10;HttpKerne&#9;null&#9;null&#10;.gitignore&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/.gitignore&#10;composer.json&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/composer.json&#10;GetUserBalanceUse&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Application/Service/GetUserBalanceUseCase.php&#10;BalanceResponse&#9;null&#9;null&#10;BalancesContro&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/BalancesController.php&#10;BalanceSchema&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/SharedKernel/Infrastructure/Schemas/BalanceSchema.php&#10;Balance&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Domain/Entity/Balance.php&#10;services.&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/config/services.yaml&#10;TransactionsContr&#9;null&#9;null&#10;issueTransac&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Domain/Service/IssueTransactionService.php&#10;Transactions&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/TransactionsController.php&#10;En&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/SharedKernel/Domain/ValueObject/EntityId.php&#10;EntityId&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/SharedKernel/Domain/ValueObject/EntityId.php&#10;UseCas&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Application/Service/IssueTransactionUseCase.php&#10;User&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Domain/Entity/User.php&#10;UsersController&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/UsersController.php&#10;Transac&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Domain/Entity/Transaction.php&#10;Entity&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/SharedKernel/Domain/Entity.php&#10;User.php&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Domain/Entity/User.php&#10;IssueTrans&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Application/Service/IssueTransactionUseCaseInterface.php&#10;SERV&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/config/services.yaml&#10;non&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/SharedKernel/Infrastructure/DependencyInjection/Resources/non_autowired_resources.yml&#10;UseCase&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Application/Service/IssueTransactionUseCase.php&#10;GetUserU&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Application/Service/GetUserBalanceUseCase.php&#10;User.&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/SharedKernel/Infrastructure/Persistence/Mappings/User.orm.xml&#10;Balanc&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/SharedKernel/Infrastructure/Persistence/Mappings/Balance.orm.xml&#10;UserRepos&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Infrastructure/Repository/UserRepository.php&#10;GetUserBa&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Application/Service/GetUserBalanceUseCase.php&#10;infra&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/SharedKernel/Infrastructure/DependencyInjection/Resources/core.infrastructure.repositories.yml&#10;AutowirePass&#9;null&#9;null&#10;DefinitionErr&#9;null&#9;null&#10;services&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/config/services.yaml&#10;getGetUserBalanceUseCaseService&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/var/cache/dev/Container2w0LiHj/getGetUserBalanceUseCaseService.php&#10;BaseCon&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/SharedKernel/Infrastructure/Ui/BaseController.php&#10;infras&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/SharedKernel/Infrastructure/DependencyInjection/Resources/core.infrastructure.repositories.yml&#10;Request&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Application/Service/GetUserBalanceRequest.php&#10;UserCon&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/UsersController.php&#10;bootstrap&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/config/bootstrap.php&#10;doctrine&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/config/packages/doctrine.yaml&#10;EntityManager&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="IssueTransaction&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Application/Service/IssueTransactionUseCase.php&#10;BalancesControl&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/BalancesController.php&#10;Trans&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/TransactionsController.php&#10;IssueTransactionUseCase&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/tests/Core/Application/Service/IssueTransactionUseCaseTest.php&#10;GetUserBalanceUseCaseTest&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/tests/Core/Application/Service/GetUserBalanceUseCaseTest.php&#10;Makefile&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/Makefile&#10;Dockerfile&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/php-fpm/Dockerfile&#10;docker-compose&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/docker-compose.yml&#10;UsersCo&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/UsersController.php&#10;BalancesController&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/BalancesController.php&#10;HttpKerne&#9;null&#9;null&#10;.gitignore&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/.gitignore&#10;composer.json&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/composer.json&#10;GetUserBalanceUse&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Application/Service/GetUserBalanceUseCase.php&#10;BalanceResponse&#9;null&#9;null&#10;BalancesContro&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/BalancesController.php&#10;BalanceSchema&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/SharedKernel/Infrastructure/Schemas/BalanceSchema.php&#10;Balance&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Domain/Entity/Balance.php&#10;services.&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/config/services.yaml&#10;TransactionsContr&#9;null&#9;null&#10;issueTransac&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Domain/Service/IssueTransactionService.php&#10;Transactions&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/TransactionsController.php&#10;En&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/SharedKernel/Domain/ValueObject/EntityId.php&#10;EntityId&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/SharedKernel/Domain/ValueObject/EntityId.php&#10;UseCas&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Application/Service/IssueTransactionUseCase.php&#10;User&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Domain/Entity/User.php&#10;UsersController&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/UsersController.php&#10;Transac&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Domain/Entity/Transaction.php&#10;Entity&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/SharedKernel/Domain/Entity.php&#10;User.php&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Domain/Entity/User.php&#10;IssueTrans&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Application/Service/IssueTransactionUseCaseInterface.php&#10;SERV&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/config/services.yaml&#10;non&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/SharedKernel/Infrastructure/DependencyInjection/Resources/non_autowired_resources.yml&#10;UseCase&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Application/Service/IssueTransactionUseCase.php&#10;GetUserU&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Application/Service/GetUserBalanceUseCase.php&#10;User.&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/SharedKernel/Infrastructure/Persistence/Mappings/User.orm.xml&#10;Balanc&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/SharedKernel/Infrastructure/Persistence/Mappings/Balance.orm.xml&#10;UserRepos&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Infrastructure/Repository/UserRepository.php&#10;GetUserBa&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Application/Service/GetUserBalanceUseCase.php&#10;infra&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/SharedKernel/Infrastructure/DependencyInjection/Resources/core.infrastructure.repositories.yml&#10;AutowirePass&#9;null&#9;null&#10;DefinitionErr&#9;null&#9;null&#10;services&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/config/services.yaml&#10;getGetUserBalanceUseCaseService&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/var/cache/dev/Container2w0LiHj/getGetUserBalanceUseCaseService.php&#10;BaseCon&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/SharedKernel/Infrastructure/Ui/BaseController.php&#10;infras&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/SharedKernel/Infrastructure/DependencyInjection/Resources/core.infrastructure.repositories.yml&#10;Request&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Application/Service/GetUserBalanceRequest.php&#10;UserCon&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/UsersController.php&#10;bootstrap&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/config/bootstrap.php&#10;doctrine&#9;FILE&#9;file:///home/edu/Projects/docker-symfony/symfony/techtest/config/packages/doctrine.yaml" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit 6+" />
@@ -701,7 +679,7 @@
       <workItem from="1550929687347" duration="16200000" />
       <workItem from="1550997198223" duration="8943000" />
       <workItem from="1551039632381" duration="5790000" />
-      <workItem from="1551126324275" duration="5692000" />
+      <workItem from="1551126324275" duration="6522000" />
     </task>
     <servers />
   </component>
@@ -714,7 +692,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99228000" />
+    <option name="totallyTimeSpent" value="100058000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -726,7 +704,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3865" y="-3" width="1896" height="1084" extended-state="6" />
+    <frame x="25" y="-3" width="1896" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2391775" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1104,14 +1082,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/symfony/techtest/tests/Core/Application/Service/IssueTransactionUseCaseTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="121" column="43" lean-forward="true" selection-start-line="121" selection-start-column="43" selection-end-line="121" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/symfony/techtest/var/cache/dev/srcApp_KernelDevDebugContainer.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -1136,22 +1106,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/symfony/techtest/src/SharedKernel/Application/Exception/ApplicationException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/symfony/techtest/src/SharedKernel/Application/Exception/ResourceNotFoundException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/symfony/techtest/src/SharedKernel/Application/Exception/LogicException.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1168,18 +1122,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/TransactionsController.php">
+    <entry file="file://$PROJECT_DIR$/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/BalancesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="93" column="76" lean-forward="false" selection-start-line="93" selection-start-column="76" selection-end-line="93" selection-end-column="76" />
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#58#113#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony/techtest/src/SharedKernel/Application/Exception/ApplicationException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/symfony/techtest/src/Core/Application/Service/IssueTransactionUseCase.php">
+    <entry file="file://$PROJECT_DIR$/symfony/techtest/src/SharedKernel/Application/Exception/ResourceNotFoundException.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="49" column="41" lean-forward="false" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+        <state relative-caret-position="60">
+          <caret line="4" column="55" lean-forward="true" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
           <folding />
         </state>
       </provider>
@@ -1187,18 +1151,32 @@
     <entry file="file://$PROJECT_DIR$/symfony/techtest/src/Core/Domain/Exception/UserNotFoundException.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/BalancesController.php">
+    <entry file="file://$PROJECT_DIR$/symfony/techtest/src/Core/Application/Service/IssueTransactionUseCase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#58#113#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="475">
+          <caret line="63" column="47" lean-forward="true" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony/techtest/tests/Core/Application/Service/IssueTransactionUseCaseTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="90" column="44" lean-forward="false" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symfony/techtest/src/Core/Infrastructure/Ui/Controllers/TransactionsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="93" column="76" lean-forward="false" selection-start-line="93" selection-start-column="76" selection-end-line="93" selection-end-column="76" />
+          <folding />
         </state>
       </provider>
     </entry>

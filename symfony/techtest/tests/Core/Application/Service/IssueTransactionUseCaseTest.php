@@ -11,6 +11,7 @@ use App\Core\Domain\Entity\User;
 use App\Core\Domain\Exception\UserNotFoundException;
 use App\Core\Domain\Repository\UserRepositoryInterface;
 use App\Core\Domain\Service\IssueTransactionService;
+use App\SharedKernel\Application\Exception\LogicException;
 use PHPUnit\Framework\TestCase;
 use Prophecy\Argument;
 use Prophecy\Prophecy\ObjectProphecy;
@@ -57,9 +58,11 @@ class IssueTransactionUseCaseTest extends TestCase
             self::FAKE_ISSUER_UUID
 
         )->shouldBeCalledTimes(1)
-            ->willReturn(null);
+            ->willThrow(
+                UserNotFoundException::class
+            );
 
-        $this->expectException(UserNotFoundException::class);
+        $this->expectException(LogicException::class);
 
         $this->issueTransactionUseCase->handle(
             new IssueTransactionRequest(
@@ -84,9 +87,11 @@ class IssueTransactionUseCaseTest extends TestCase
 
         $this->userRepositoryMock->findById(self::FAKE_RECIEVER_UUID)
             ->shouldBeCalledTimes(1)
-            ->willReturn(null);
+            ->willThrow(
+                UserNotFoundException::class
+            );
 
-        $this->expectException(UserNotFoundException::class);
+        $this->expectException(LogicException::class);
 
        $this->issueTransactionUseCase->handle(
            new IssueTransactionRequest(

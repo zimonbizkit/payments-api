@@ -92,7 +92,6 @@ class TransactionsController
         }catch (\Exception $e) {
             return new Response(
                 json_encode(['error'=> $e->getMessage()],JSON_PRETTY_PRINT),
-                $e->getMessage(),
                 Response::HTTP_INTERNAL_SERVER_ERROR
             );
         }
