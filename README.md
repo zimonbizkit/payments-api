@@ -1,6 +1,6 @@
 # Payments API  
 ### Requirements
-`docker` and `docker-compose`
+`make` command , `docker` and `docker-compose`
 
 ### Installation
 Go to the project root directory and run
