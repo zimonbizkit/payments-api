@@ -66,7 +66,7 @@ shell:
 ##	setup:		Sets up the project for the first time
 .PHONY: setup
 setup:
-	chown -R $(UID):$(GID) .
+	#chown -R $(UID):$(GID) .
 	export HOST_IP=$(HOST_IP); \
 	docker-compose exec php sed -i s/yourip/$(HOST_IP)/g .env; \
 	docker-compose exec php composer install
